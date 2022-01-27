@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SCRIPTS="${USER_CUSTOM}/scripts"
+SCRIPTS="${SHELL_UTILS}/scripts"
 COLORS="${SCRIPTS}/colors.sh"
 
 source_file() {

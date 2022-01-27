@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-CONFIG="${USER_CUSTOM}/configs"
-COLORSCHEMES="${USER_CUSTOM}/colorschemes"
+CONFIG="${XRESOURCES}/configuration"
+COLORSCHEMES="${XRESOURCES}/colorschemes"
 
 echo "#include \"${CONFIG}/urxvt.conf\""
 echo "#include \"${CONFIG}/xft.conf\""
